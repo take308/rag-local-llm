@@ -18,15 +18,13 @@
 7.  **類似検索**: 関連するチャンク（文書断片）を抽出
 8.  **回答生成**: `Qwen` モデルが検索結果を元に回答を作成
 
----
-
 ## 使用技術
 
-- **Language**: Python
-- **Vector DB**: [FAISS](https://github.com/facebookresearch/faiss)
-- **Embedding**: [sentence-transformers](https://www.sbert.net/) (BAAI/bge-m3)
-- **LLM**: [HuggingFace Transformers](https://huggingface.co/docs/transformers/index) (Qwen/Qwen2.5)
-- **Framework**: [LangChain](https://python.langchain.com/)
+- Language: Python
+- Vector DB: [FAISS](https://github.com/facebookresearch/faiss)
+- Embedding: [sentence-transformers](https://www.sbert.net/) (BAAI/bge-m3)
+- LLM: [HuggingFace Transformers](https://huggingface.co/docs/transformers/index) (Qwen/Qwen2.5)
+- Framework: [LangChain](https://python.langchain.com/)
 
 ## ⚙️ 環境構築
 
